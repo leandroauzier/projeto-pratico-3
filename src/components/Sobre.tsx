@@ -26,7 +26,7 @@ export function Sobre() {
     <section id="sobre" className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
       <div className="max-w-3xl">
         <h2 className="text-sm font-semibold uppercase tracking-wider text-blue-700">Sobre a LENS</h2>
-        <p className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+        <p className="mt-3 text-3xl font-bold tracking-tight text-slate-300 sm:text-4xl">
           Praticidade e organização para abastecer o dia a dia da sua empresa
         </p>
         <p className="mt-5 text-base leading-relaxed text-slate-600">

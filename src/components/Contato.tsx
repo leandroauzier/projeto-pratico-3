@@ -21,10 +21,10 @@ export function Contato() {
     <section id="contato" className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
       <div className="max-w-2xl">
         <h2 className="text-sm font-semibold uppercase tracking-wider text-blue-700">Fale com a gente</h2>
-        <p className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+        <p className="mt-3 text-3xl font-bold tracking-tight text-slate-300 sm:text-4xl">
           Solicite seu orçamento ou tire suas dúvidas
         </p>
-        <p className="mt-4 text-base leading-relaxed text-slate-600">
+        <p className="mt-4 text-base leading-relaxed text-slate-300">
           Preencha o formulário com os dados do seu pedido ou fale diretamente com
           a equipe pelos canais abaixo. Respondemos solicitações de orçamento de
           empresas, escolas, órgãos públicos e clientes em geral.
@@ -32,10 +32,10 @@ export function Contato() {
       </div>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-5">
-        <form onSubmit={aoEnviar} className="lg:col-span-3 rounded-xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+        <form onSubmit={aoEnviar} className="lg:col-span-3 rounded-xl border border-slate-200 bg-gray-800 p-6 shadow-sm sm:p-8">
           <div className="grid gap-5 sm:grid-cols-2">
             <div className="sm:col-span-1">
-              <label htmlFor="nome" className="block text-sm font-medium text-slate-700">
+              <label htmlFor="nome" className="block text-sm font-medium text-slate-300">
                 Nome completo
               </label>
               <input
@@ -48,7 +48,7 @@ export function Contato() {
               />
             </div>
             <div className="sm:col-span-1">
-              <label htmlFor="email" className="block text-sm font-medium text-slate-700">
+              <label htmlFor="email" className="block text-sm font-medium text-slate-300">
                 E-mail
               </label>
               <input
@@ -61,7 +61,7 @@ export function Contato() {
               />
             </div>
             <div className="sm:col-span-1">
-              <label htmlFor="telefone" className="block text-sm font-medium text-slate-700">
+              <label htmlFor="telefone" className="block text-sm font-medium text-slate-300">
                 Telefone
               </label>
               <input
@@ -74,7 +74,7 @@ export function Contato() {
               />
             </div>
             <div className="sm:col-span-1">
-              <label htmlFor="produto" className="block text-sm font-medium text-slate-700">
+              <label htmlFor="produto" className="block text-sm font-medium text-slate-300">
                 Produto de interesse
               </label>
               <select
@@ -96,7 +96,7 @@ export function Contato() {
               </select>
             </div>
             <div className="sm:col-span-2">
-              <label htmlFor="mensagem" className="block text-sm font-medium text-slate-700">
+              <label htmlFor="mensagem" className="block text-sm font-medium text-slate-300">
                 Mensagem
               </label>
               <textarea
@@ -127,9 +127,9 @@ export function Contato() {
         </form>
 
         <div className="lg:col-span-2 flex flex-col gap-5">
-          <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h3 className="text-base font-semibold text-slate-900">Canais de atendimento</h3>
-            <ul className="mt-4 flex flex-col gap-3 text-sm text-slate-600">
+          <div className="rounded-xl border border-slate-200 bg-gray-800 p-6 shadow-sm">
+            <h3 className="text-base font-semibold text-slate-300">Canais de atendimento</h3>
+            <ul className="mt-4 flex flex-col gap-3 text-sm text-slate-200">
               <li className="flex items-start gap-3">
                 <MailIcon className="mt-0.5 h-5 w-5 shrink-0 text-blue-700" />
                 <span>contato@lensmateriais.com.br</span>
@@ -155,8 +155,8 @@ export function Contato() {
             </a>
           </div>
 
-          <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
-            <div className="flex h-48 flex-col items-center justify-center gap-2 bg-slate-100 text-slate-500">
+          <div className="overflow-hidden rounded-xl border border-slate-200 bg-gray-800 shadow-sm">
+            <div className="flex h-48 flex-col items-center justify-center gap-2 bg-slate-900 text-slate-500">
               <MapPinIcon className="h-8 w-8 text-blue-700" />
               <p className="text-sm font-medium">Mapa ilustrativo de localização</p>
               <p className="px-6 text-center text-xs leading-relaxed text-slate-400">

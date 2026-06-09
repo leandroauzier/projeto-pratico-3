@@ -3,7 +3,7 @@ export function Hero() {
     <section id="inicio" className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-amber-50">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-16 sm:py-20 lg:grid-cols-2 lg:py-28">
         <div>
-          <span className="inline-block rounded-full bg-blue-100 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-blue-700">
+          <span className="inline-block rounded-full bg-blue-100 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider- text-blue-700">
             Materiais de escritório · Papelaria · Informática
           </span>
           <h1 className="mt-5 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
